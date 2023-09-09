@@ -50,13 +50,10 @@ def transform_image(image):
           #cv2.rectangle(image, (x, y), (x+w, y+h), (255,0,0), 3)
      
      out = cv2.resize(out[50:-50, 50:-50], dim, interpolation = cv2.INTER_AREA)
-     st.write(out.shape)
      return out
 
 def predict(image):
      resized_image = transform_image(image)
-
-     st.write(resized_image.shape)
      
      st.image(resized_image, caption='Output Image')
 
