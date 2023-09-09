@@ -61,7 +61,7 @@ def predict(image):
      st.image(resized_image, caption='Output Image')
 
      resized_image = resized_image[np.newaxis, :, :, :]
-     model = load_model('/Users/tanaypanja/Documents/Personal Project/models/0.95model.h5')
+     model = load_model('models/0.95model.h5')
 
      layer = tf.keras.layers.Softmax()
      prediction = layer(model.predict(resized_image)[0]).numpy()[1]
