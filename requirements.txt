@@ -2,3 +2,6 @@ opencv-python
 tensorflow
 pillow
 streamlit
+ffmpeg 
+libsm6 
+libxext6
