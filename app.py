@@ -6,6 +6,14 @@ st.markdown('Parkinson\'s is a neurodegenerative disease that causes motor loss'
 
 st.markdown('Please choose to take a picture from your webcam or upload an image onto the platform.')
 
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True) 
+
 col1, col2 = st.columns(2)
 with col1:
      st.markdown('Webcam Input')
