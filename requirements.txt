@@ -1,5 +1,0 @@
-ffmpeg 
-opencv-python
-tensorflow
-pillow
-streamlit
