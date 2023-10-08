@@ -4,7 +4,7 @@ from prediction import predict
 st.title('Classifying Parkinson\'s disease')
 st.markdown('Parkinson\'s is a neurodegenerative disease that causes motor loss')
 
-st.markdown('Please choose to take a picture from your phone\'s camera and upload it to the platform.')
+st.markdown('Please take a picture from your phone\'s camera and upload it to the platform.')
 
 hide_streamlit_style = """
             <style>
